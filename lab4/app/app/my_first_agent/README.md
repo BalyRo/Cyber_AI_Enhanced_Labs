@@ -1,4 +1,4 @@
-הנה גרסה קצרה וממוקדת ל-README.md עבור סוכן אבטחת המידע (security-agent), המבוססת על המבנה הטכני שביקשת:
+:
 
 🛡️ security-agent
 1. Agent Name
