@@ -42,3 +42,4 @@ By using live weather data from an external API, the agent provides factual temp
 
 \*\*Agent\*\*: "Weather at Santiago Bernabéu (Madrid): 18°C. Status code: 0. These are perfect conditions for a high-intensity football match."
 
+<img width="1572" height="608" alt="weatherChat" src="https://github.com/user-attachments/assets/0b8a2deb-ddf4-4a07-bdb8-32e607e93876" />
