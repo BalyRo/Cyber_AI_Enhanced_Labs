@@ -1,4 +1,3 @@
-:
 
 🛡️ security-agent
 1. Agent Name
