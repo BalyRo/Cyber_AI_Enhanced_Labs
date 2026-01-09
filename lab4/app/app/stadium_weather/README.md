@@ -36,6 +36,9 @@ This agent demonstrates the following fundamental rule of agentic design:
 
 **Examples:**
 * **Tool:** Fetches the exact temperature and weather code from the API.
-* **The Agent:** Explains if the temperature is ideal for a high-intensity match or
+* **The Agent:** Explains if the temperature is ideal for a high-intensity match or if players should be advised to wear thermal gear.
+
+This separation is a **core expectation** for student agents in this course.
+
 Example Interaction:
 <img width="1572" height="608" alt="weatherChat" src="https://github.com/user-attachments/assets/0b8a2deb-ddf4-4a07-bdb8-32e607e93876" />
