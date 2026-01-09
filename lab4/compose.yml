@@ -1,0 +1,16 @@
+services:
+  devui:
+    build: .
+    image: cybersec-agent-devui
+    container_name: cybersec-agent-devui
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      API_BASE_URL: "https://api.groq.com/openai/v1"
+      MODEL: "llama-3.3-70b-versatile"
+      PYTHONPATH: "/app:/app/app"
