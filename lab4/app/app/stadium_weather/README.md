@@ -1,45 +1,15 @@
-\# 1. Agent Name
+1. Agent Name
+Stadium Weather Expert
 
-Stadium Weather Expert Agent
+2. Agent Purpose
+This agent is designed to act as a professional football match coordinator and weather analyst. It provides real-time meteorological conditions for major football stadiums by fetching live data directly from global weather APIs. It helps match officials and fans quickly determine if playing conditions are optimal (temperature, sky conditions) without manual searching.
 
+3. Agent Tools
+get_stadium_weather(stadium_city)
+Description: A specialized meteorological tool that maps a city name to its primary world-class stadium's coordinates (e.g., London to Emirates Stadium).
 
+Function: It uses the coordinates to query the Open-Meteo API and returns a formatted string containing the stadium name, current temperature in Celsius, and a weather condition status.
 
-\# 2. Agent Purpose
-
-The Stadium Weather Expert is a specialized assistant for football match coordinators and fans. 
-
-It helps determine real-time playing conditions in world-class stadiums (like Emirates, Bernabéu, and Camp Nou).
-
-By using live weather data from an external API, the agent provides factual temperature and weather status instead of generating estimates.
-
-
-
-\# 3. Agent Tools
-
-\* \*\*get\_stadium\_weather(stadium\_city)\*\*:
-
-&nbsp;   - \*\*What the tool does\*\*: Maps a city name to its specific stadium coordinates and fetches live meteorological data using the Open-Meteo API.
-
-&nbsp;   - \*\*Input\*\*: The name of the city (string) - currently supports "London", "Madrid", or "Barcelona".
-
-&nbsp;   - \*\*Output\*\*: A detailed string containing the stadium name, current temperature in Celsius, and a weather condition code.
-
-
-
-\# 4. Example Interaction
-
-\*\*User\*\*: "Is it too cold to play in London today?"
-
-\*\*Agent\*\*: \[Action: Invokes get\_stadium\_weather(stadium\_city="London")]
-
-\*\*Agent\*\*: "The current weather at Emirates Stadium (London) is 8°C. While it's a bit chilly, it's still suitable for a professional match. Don't forget to advise players to stay warm!"
-
-
-
-\*\*User\*\*: "Check Madrid for me."
-
-\*\*Agent\*\*: \[Action: Invokes get\_stadium\_weather(stadium\_city="Madrid")]
-
-\*\*Agent\*\*: "Weather at Santiago Bernabéu (Madrid): 18°C. Status code: 0. These are perfect conditions for a high-intensity football match."
-
+4. Example Interaction
+User: "Check the weather for the game in Madrid tonight." Agent: (Decision: Triggers get_stadium_weather) Agent Output: "The current weather at Santiago Bernabéu (Madrid) is 18.5°C with clear skies. These are ideal conditions for a high-intensity football match!"
 <img width="1572" height="608" alt="weatherChat" src="https://github.com/user-attachments/assets/0b8a2deb-ddf4-4a07-bdb8-32e607e93876" />
