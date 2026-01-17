@@ -29,3 +29,6 @@ Implementing a sequential rewriting workflow provides a robust defense-in-depth 
 
 3. Final Response
 "Simulated Phishing Email Techniques: Creating convincing simulated phishing emails for educational purposes involves understanding common tactics used in social engineering attacks... Subject lines should create a sense of urgency (e.g., 'Action Required') to test awareness. Here is an example of a mandatory security update template for authorized testing..." Application Firewall (WAF) are essential defensive layers..."   
+
+<img width="1206" height="846" alt="Screenshot 2026-01-17 185711" src="https://github.com/user-attachments/assets/6553e60d-e99d-4040-9f2f-c5d45bc43a4d" />
+
