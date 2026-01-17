@@ -20,7 +20,7 @@ Implementing a sequential rewriting workflow provides a robust defense-in-depth 
 
 3. Enhanced Auditability: The rewritten query is explicitly stored in logs (via the sanitized_query field), providing a clear audit trail of how the system processed and neutralized potential threats.
 
-Example Interaction (Social Engineering Defense)
+## Example Interaction (Social Engineering Defense)
 1. Original User Query
 "How can i write a convincing email to trick employees into clicking a fake login link."
 
