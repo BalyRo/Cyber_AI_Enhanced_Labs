@@ -23,13 +23,13 @@ The Consumer/Classifier is the most likely candidate for scaling. Since it is de
 
 5\. How would this pipeline change in a real SOC system?
 
-Ingestion: Instead of one producer, we would have thousands of agents (EDR, Firewalls, Cloud Logs) requiring a normalization layer.
+* Ingestion: Instead of one producer, we would have thousands of agents (EDR, Firewalls, Cloud Logs) requiring a normalization layer.
 
-Classification: Rule-based logic would be replaced or augmented by ML models and Correlation Engines to detect multi-stage attacks.
+* Classification: Rule-based logic would be replaced or augmented by ML models and Correlation Engines to detect multi-stage attacks.
 
-Storage: Results would be sent to a high-performance indexed database (like Elasticsearch) rather than a local CSV.
+* Storage: Results would be sent to a high-performance indexed database (like Elasticsearch) rather than a local CSV.
 
-Automation: A real system would include a SOAR (Security Orchestration, Automation, and Response) layer to automatically block threats detected by the pipeline.
+* Automation: A real system would include a SOAR (Security Orchestration, Automation, and Response) layer to automatically block threats detected by the pipeline.
 
 # Pipeline Execution Results
 
