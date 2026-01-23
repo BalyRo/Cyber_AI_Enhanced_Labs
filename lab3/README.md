@@ -34,7 +34,7 @@ The Consumer/Classifier is the most likely candidate for scaling. Since it is de
 
 **Traces**: Captured full 5-span traces in Jaeger, confirming end-to-end execution from produce\_event to write\_csv.
 
-**Analytic**s: Generated class distribution plots in the Statistics notebook, mapping synthetic logs to MITRE ATT\&CK tactics like Execution and Credential Access.
+**Analytics**: Generated class distribution plots in the Statistics notebook, mapping synthetic logs to MITRE ATT\&CK tactics like Execution and Credential Access.
 
 # Evidence
 
