@@ -1,4 +1,4 @@
-##Lab 3.1: Event-Driven Cybersecurity Pipeline with Kafka and Jaeger
+#Lab 3.1: Event-Driven Cybersecurity Pipeline with Kafka and Jaeger
 ##Overview
 
 In this lab, we implemented a decoupled, asynchronous cybersecurity data pipeline. The system simulates real-world security telemetry (Windows logs) being ingested, processed, and analyzed in a high-load environment. The architecture focuses on separation of concerns between data production and classification.
@@ -38,25 +38,25 @@ Traces: Captured full 5-span traces in Jaeger, confirming end-to-end execution f
 
 Analytics: Generated class distribution plots in the Statistics notebook, mapping synthetic logs to MITRE ATT\&CK tactics like Execution and Credential Access.
 
-\## Evidence
+# Evidence
 
 # Kafka Traffic (Redpanda Console)
 
 This screenshot shows the `raw-events` topic successfully receiving JSON logs from the Producer.
 
-!\[Redpanda Messages](images/messagesRecord.png)
+<img width="1489" height="797" alt="messagesRecord" src="https://github.com/user-attachments/assets/65b0ac08-f463-472d-a03f-69eaefd48b02" />
 
 # Distributed Tracing (Jaeger)
 
 This trace confirms the full end-to-end flow. It includes 5 spans, connecting the Producer's logic with the Consumer's classification and final storage.
 
-!\[Jaeger Trace](images/timelineRecord.png)
+<img width="1885" height="422" alt="timelineRecord" src="https://github.com/user-attachments/assets/9f650256-e28b-4c53-af55-5ab186be398e" />
 
 # Data Analytics
 
 The distribution of MITRE ATT\&CK tactics identified by the Consumer/Classifier.
 
-!\[Statistics Graphs](images/StatisticsRecord.png)
+<img width="1820" height="793" alt="StatisticsRecord" src="https://github.com/user-attachments/assets/f06d9817-4631-495f-98ff-8fdb16ac9777" />
 
 
 
