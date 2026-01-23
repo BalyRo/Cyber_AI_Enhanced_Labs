@@ -30,7 +30,8 @@ Classification: Rule-based logic would be replaced or augmented by ML models and
 Storage: Results would be sent to a high-performance indexed database (like Elasticsearch) rather than a local CSV.
 
 Automation: A real system would include a SOAR (Security Orchestration, Automation, and Response) layer to automatically block threats detected by the pipeline.
-#Pipeline Execution Results
+
+# Pipeline Execution Results
 
 Data Flow: Verified via Redpanda Console, showing JSON events successfully entering the raw-events topic.
 
