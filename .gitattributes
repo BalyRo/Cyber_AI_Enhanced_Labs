@@ -1,3 +1,6 @@
-
 Project filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+Project/2.Data[[:space:]]preparing[[:space:]]and[[:space:]]cleaning/Real_data/*.csv filter=lfs diff=lfs merge=lfs -text
+Project/2.Data[[:space:]]preparing[[:space:]]and[[:space:]]cleaning/Splited_data/*.csv filter=lfs diff=lfs merge=lfs -text
+Labs/lab3/*.csv filter=lfs diff=lfs merge=lfs -text
+phishing_email.csv filter=lfs diff=lfs merge=lfs -text
