@@ -1,8 +1,46 @@
-**AI-Enhanced Cybersecurity — Laboratory Assignments**
+# AI-Enhanced Cyber Security Course
 
-Hands-on labs for the AI-Enhanced Cybersecurity course, covering MITRE ATT&CK mapping, AI-driven threat detection, accelerated pipelines, and real-world security data.
-This repository contains the practical laboratory component of the AI-Enhanced Cybersecurity course designed by Dr. Andrei Kojukhov and Viacheslav Nefedov (HIT, Israel).
+### *Advanced Security Labs & Machine-Learning-Powered Defense*
 
-**Students:**
-*-Michael Tsegaye*
-*-Roi Baly*
+---
+
+## 🧑‍🤝‍🧑 Students
+
+* **Michael Tsegaye**
+* **Roi Baly**
+* **Tomer Barel**
+
+---
+
+## 📖 Course Overview
+
+This repository contains hands-on labs and exercises completed as part of the **AI Enhanced Cyber Security** course.
+The course focuses on integrating machine learning, automation, and modern security practices to detect, analyze, and prevent cyber threats.
+
+---
+
+
+# Project overview
+This project implements a Proof-of-Concept (POC) offline pipeline designed to detect advanced "Spear Phishing" attacks. Unlike traditional systems that rely on signatures or blacklisted URLs, this system analyzes the actual semantic meaning of email content to identify anomalies.
+By training a deep Autoencoder on text embeddings of "normal" business communications, the model can flag semantic deviations (social engineering attempts) without requiring labeled attack data (enabling Zero-Day detection).
+
+The full project definition can be seen in this [*[link]*](https://github.com/BalyRo/Cyber_AI_Enhanced_Labs/blob/main/Project/1.Project_Definition.md)
+
+## 🎯 Project Goal
+To develop an Unsupervised Zero-Day Detection System that identifies spear-phishing attempts based on semantic context rather than technical signatures.
+
+Primary Objective: Maintain a False Positive Rate (FPR) < 1% to ensure business continuity.
+
+Secondary Objective: Detect "Zero-Day" attacks where the malicious intent is hidden in the language (social engineering) rather than in a virus or a link.
+
+#should add: system architecture + workflow diagram + user instructions if needed + known limitations.
+
+---
+
+## 🧪 Labs Completed
+
+
+You can access all labs here:
+👉 **[Click Here to Open the Labs Repository](https://github.com/BalyRo/Cyber_AI_Enhanced_Labs/tree/main/Labs)**
+
+---
